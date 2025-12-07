@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { getJokeOfTheDay, getRandomJokeByLanguage, type Joke } from '@/data/jokes';
+import { getJokeOfTheDay, getRandomJokeByLanguage, type Joke } from '../data/jokes';
 
 export default function Home() {
   const [joke, setJoke] = useState<Joke | null>(null);
